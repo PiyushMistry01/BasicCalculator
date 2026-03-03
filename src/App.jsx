@@ -27,7 +27,7 @@ switch (operands) {
   case "-": math = Number(previousnumber) - Number(number)
              setresult(math.toString())   
     break;
-  case "X": math = Number(previousnumber) * Number(number)
+  case "x": math = Number(previousnumber) * Number(number)
              setresult(math.toString())   
     break;
   case "/": math = Number(previousnumber) / Number(number)
